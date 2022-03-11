@@ -1,0 +1,56 @@
+nav.navbar {
+  background: #222d44;
+}
+nav.navbar .nav-link {
+  color: #eae9e5;
+  font-size: 1.4rem;
+}
+nav.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+ul.navbar {
+  justify-content: right;
+}
+
+.navbar-brand {
+  color: #eae9e5;
+}
+.navbar-brand:hover {
+  color: #eae9e5;
+}
+
+.hamburger {
+  color: #eae9e5;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+body {
+  background: #eae9e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #222d44;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  color: #3D3D3D;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
