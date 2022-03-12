@@ -2,4 +2,6 @@ node_modules
 package-lock.json
 package.json
 
-src
+src/scss
+
+src/js
