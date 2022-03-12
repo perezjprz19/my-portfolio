@@ -11,13 +11,13 @@
 ## Table of Contents
 
 <ul>
-    <li>[My Approach](#my-approach)</li>
-    <li>[Design](#design)</li>
-    <li>[Technologies](#technologies)</li>
-    <li>[What I Have Learned](#what-i-have-learned)
-    <li>[Future Development](#future-development)</li>
-    <li>[Acknowledgements](#acknowledgements)</li>
-    <li>[Images](#images)</li>
+    <li> [My Approach](#my-approach) </li>
+    <li> [Design](#design) </li>
+    <li> [Technologies](#technologies) </li>
+    <li> [What I Have Learned](#what-i-have-learned) </li>
+    <li> [Future Development](#future-development) </li>
+    <li> [Acknowledgements](#acknowledgements) </li>
+    <li> [Images](#images) </li>
 </ul>
 
 ### My Approach
