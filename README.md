@@ -21,19 +21,19 @@
 ### My Approach
 <p> I really like the use of yellow because of the feelings it brings me. I wanted my portfolio to be a place that brings happiness. Yellow does that for me. However, I realize that yellow might be too bright and overwhelming of a color, so I used it sparingly as an accent through my site</p>
 
-``$accent-color:#FDC435; <!-- Yellow-->
+``$accent-color:#FDC435;`` <!-- Yellow-->
 
 <p> I chose Dark Blue for headings and navigation background because I wanted a color that would stand out, but still be neutral and sophisticated, while staying away from the overused black. <p>
 
-``$heading-color:  #222d44; <!--Dark Blue-->
+``$heading-color:  #222d44;``<!--Dark Blue-->
 
 <p>I chose a Dark Gray for the main text because the using black on white background can be too harsh on the eyes. I still wanted the text to be legible while promoting that clean feeling that black on white does.</p>
 
-``$text-color: #3D3D3D; <!--Dark Gray-->
+``$text-color: #3D3D3D;`` <!--Dark Gray-->
 
 <p>The last color I chose was white. I really wanted to only choose three colors, but none of the previous colors provided me with the same organized, professional feeling when used as a bakcground for the entire website.</p>
 
-``$bg-color: #FFFFFF; <!--White-->
+``$bg-color: #FFFFFF;`` <!--White-->
 
 
 ### Design
@@ -69,4 +69,4 @@
 <p> I will continue to practice my front-end skills and be active on Front End Mentor.</p>
 
 <p>Specific to my portfolio, I would like to add different design templates to choose from, just for fun and practice. But first, I need more Javascript 
-:smile <p> 
+:smile: <p> 
