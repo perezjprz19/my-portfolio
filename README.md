@@ -11,10 +11,13 @@
 ## Table of Contents
 
 
+- [Jessica's Web Development](#jessicas-web-development)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
     - [My Approach](#my-approach)
     - [Design](#design)
     - [Technologies](#technologies)
-    - [What I Have Learned](#what-i-have-learned)
+    - [What I have Learned](#what-i-have-learned)
     - [Future Development](#future-development)
     - [Acknowledgements](#acknowledgements)
     - [Images](#images)
