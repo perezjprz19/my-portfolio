@@ -10,15 +10,15 @@
 
 ## Table of Contents
 
-<ul>
-    <li> [My Approach](#my-approach) </li>
-    <li> [Design](#design) </li>
-    <li> [Technologies](#technologies) </li>
-    <li> [What I Have Learned](#what-i-have-learned) </li>
-    <li> [Future Development](#future-development) </li>
-    <li> [Acknowledgements](#acknowledgements) </li>
-    <li> [Images](#images) </li>
-</ul>
+
+    - [My Approach](#my-approach)
+    - [Design](#design)
+    - [Technologies](#technologies)
+    - [What I Have Learned](#what-i-have-learned)
+    - [Future Development](#future-development)
+    - [Acknowledgements](#acknowledgements)
+    - [Images](#images)
+
 
 ### My Approach
 <p> I really like the use of yellow because of the feelings it brings me. I wanted my portfolio to be a place that brings happiness. Yellow does that for me. However, I realize that yellow might be too bright and overwhelming of a color, so I used it sparingly as an accent through my site</p>
