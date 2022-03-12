@@ -79,4 +79,4 @@
 
 ### Images
 
-![](./images/portfolio-mobile-view.jpeg)
+![](src/images/portfolio-mobile-view.jpeg)
