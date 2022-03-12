@@ -11,11 +11,13 @@
 ## Table of Contents
 
 <ul>
-    <li>My Approach</li>
-    <li>Design</li>
-    <li>Technologies</li>
-    <li>What I Have Learned</li>
-    <li>Future Development</li>
+    <li>[My Approach](#my-approach)</li>
+    <li>[Design](#design)</li>
+    <li>[Technologies](#technologies)</li>
+    <li>[What I Have Learned](#what-i-have-learned)
+    <li>[Future Development](#future-development)</li>
+    <li>[Acknowledgements](#acknowledgements)</li>
+    <li>[Images](#images)</li>
 </ul>
 
 ### My Approach
@@ -62,7 +64,7 @@
 
 <p> One last thing that I learned was to use a package manager. I definitely did not use it to the best of it's ability, but getting started with it was the first step. Again, in this I also tried to bite more than I can chew several times. But thanks to the other lesson I learned, I know that proficiency will come in time </p>
 
-## Future Development
+### Future Development
 
 <p> I am currently working on Colt Steele's Web Development Bootcamp 2022 on Udemy. I'm only about 30% of the way through, so I will continue to work on that. Throughout the course I will pick up the MERN stack, so I would like to build projects with that technology stack to change out the projects in my portfolio</p>
 
@@ -70,3 +72,11 @@
 
 <p>Specific to my portfolio, I would like to add different design templates to choose from, just for fun and practice. But first, I need more Javascript 
 :smile: <p> 
+
+### Acknowledgements
+
+<p>The Front End Mentor community has served as a great place to get feedback on my code and also to serve as a mentor to others. Even their simple designs have a tricky aspect to them which allows me to learn new things and reinforce what I already know. Without their challenges and feedback I would still be stuck in tutorial hell, so shoutout to the FEM community for their continued support.</p>
+
+### Images
+
+![](./images/portfolio-mobile-view.jpeg)

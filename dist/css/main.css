@@ -75,6 +75,11 @@ li {
 
 .container__projects {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .section__heading {
@@ -115,11 +120,12 @@ li {
 }
 
 .about__me {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  margin-top: 4em;
 }
 .about__me h2 {
   font-size: 3rem;
@@ -128,6 +134,7 @@ li {
 }
 .about__me .lead {
   margin: 3em;
+  font-family: "Nunito", sans-serif;
 }
 
 .form {
