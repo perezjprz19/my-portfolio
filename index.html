@@ -19,7 +19,7 @@
 <body class = "container-fluid">
     <header>
       <nav class = "navbar navbar-expand-sm fixed-top">
-          <div class="container-fluid">
+          <div class="container">
               <a href="#" class="navbar-brand">&lt;JWD&gt;</a>
               <button class="navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#dropdown" aria-controls = "#dropdown" aria-expanded = "false" aria-label = "Toggle navigation">
                   <span class="navbar-toggler-icon"><svg class = "hamburger" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -114,17 +114,17 @@
 
 
             <form id = "contact" class="form" action="">
-                <label for="firstName" aria-label="first name"></label>
+                <label for="firstName" aria-label="first name">First Name</label>
                 <input class="form__input form__input--first" type="text" placeholder="First Name" aria-placeholder="First Name" id="firstName" name="firstname" required="">
       
-                <label for="lastName" aria-label="last name"></label>
+                <label for="lastName" aria-label="last name">Last Name</label>
                 <input class="form__input form__input--last" type="text" placeholder="Last Name" aria-placeholder="Last Name" id="lastName" name="lastname" required="">
       
-                <label for="email" aria-label="email"></label>
+                <label for="email" aria-label="email">Email</label>
                 <input class="form__input form__input--email" type="email" placeholder="Email Address" aria-placeholder="Email Address" id="email" name="email" required="">
       
-                <label for="password" aria-label="password"></label>
-                <input class="form__input form__input--password" type="password" placeholder="Password" aria-placeholder="Password" id="password" name="password" required="">
+                <label for="addComment" aria-label="add comment">Please enter a comment</label>
+                <textarea name="comment" form = "contact" id="addComment" cols="30" rows="10" placeholder = "Add text"></textarea>
       
                 <button class="form__button">Send</button>
       
