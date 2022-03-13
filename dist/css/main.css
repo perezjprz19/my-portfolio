@@ -76,6 +76,7 @@ header h1 {
 }
 header .hero {
   text-align: center;
+  max-width: 80vw;
 }
 header P {
   margin-bottom: 3em;
@@ -87,7 +88,8 @@ header P {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4em 2em;
+  margin: 4em;
+  max-width: 80vw;
 }
 
 .section__heading {
@@ -101,8 +103,9 @@ header P {
   flex-direction: column-reverse;
   justify-content: space-between;
   border-radius: 0.5em;
-  max-width: 80vw;
-  margin: 4em 1em;
+  width: 35em;
+  max-width: 100%;
+  margin: 4em;
   padding: 1.5em;
 }
 
@@ -210,9 +213,10 @@ header P {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
-  justify-content: space-evenly;
   padding: 2em;
 }
 footer a {
@@ -220,6 +224,11 @@ footer a {
   flex-direction: column;
   color: #FDC435;
   justify-content: center;
+  margin: 2em;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
 }
 
 .social__link--twitter:hover,
