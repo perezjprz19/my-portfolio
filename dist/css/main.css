@@ -171,7 +171,7 @@ header P {
   justify-content: center;
   align-items: center;
   background: #222d44;
-  max-width: 80vw;
+  max-width: 8;
   border-radius: 0.5em;
   padding: 1.5em;
   box-shadow: 0em 0.4em 0.1em rgba(62, 60, 73, 0.2);
@@ -194,6 +194,22 @@ header P {
 }
 .form .form__input:hover, .form .form__input:focus {
   outline: 1px solid #FDC435;
+}
+.form input:valid {
+  border: 2px solid #222d44;
+}
+.form input:invalid:required, .form input:invalid {
+  border: 2px dashed #222d44;
+}
+.form .error {
+  width: 100%;
+  padding: 0;
+  font-size: 1em;
+  color: white;
+  margin-top: 0;
+}
+.form .error.active {
+  padding: 0.5em;
 }
 .form .form__button {
   margin: 0.5em;
@@ -218,6 +234,7 @@ footer {
   align-items: center;
   min-width: 100%;
   padding: 2em;
+  margin: 0;
 }
 footer a {
   display: flex;

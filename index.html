@@ -117,15 +117,17 @@
 
 
 
-            <form id = "contact" class="form" action="">
-                <label for="firstName" aria-label="first name">Full Name</label>
-                <input class="form__input form__input--first" type="text" placeholder="First Name" aria-placeholder="First Name" id="firstName" name="firstname" required="">
+            <form novalidate id = "contact" class="form" action="">
+                <label for="fullName" aria-label="full name">Full Name (required):</label>
+                <input class="form__input form__input--first" type="text" placeholder="Full Name" aria-placeholder="Full Name" id="fullName" name="fullname" required="">
+                <span class="error" aria-live = "polite"></span>
       
-                <label for="email" aria-label="email">Email</label>
+                <label for="email" aria-label="email">Email (required):</label>
                 <input class="form__input form__input--email" type="email" placeholder="Email Address" aria-placeholder="Email Address" id="email" name="email" required="">
+                <span class = "error" aria-live ="polite"></span>
       
-                <label for="addMessage" aria-label="add message">Message:</label>
-                <textarea name="message" form = "contact" id="addMessage" cols="30" rows="10" placeholder = "Add your message here"></textarea>
+                <label for="addMessage" aria-label="add message">Message (required):</label>
+                <textarea name="message" form = "contact" id="addMessage" cols="30" rows="10" placeholder = "Add your message here" required></textarea>
       
                 <button class="form__button">Send</button>
       
@@ -136,7 +138,7 @@
         </main>
 
             
-            <footer>
+            <footer class = "container-fluid">
 
                 <div class="social">
                     <a class = "social__link--fem" href="https://www.frontendmentor.io/profile/perezjprz19" target = "_blank">
@@ -159,6 +161,7 @@
 
     <!--Adding Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src = "src/js/main.js"></script>
 
 </body>
 </html>
