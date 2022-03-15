@@ -20,7 +20,10 @@
     - [What I have Learned](#what-i-have-learned)
     - [Future Development](#future-development)
     - [Acknowledgements](#acknowledgements)
+    - [Helpful Resources](#helpful-resources)
     - [Images](#images)
+    - [Version Updates](#version-updates)
+      - [Version 1.0.1](#version-101)
 
 
 ### My Approach
@@ -80,6 +83,16 @@
 
 <p>The Front End Mentor community has served as a great place to get feedback on my code and also to serve as a mentor to others. Even their simple designs have a tricky aspect to them which allows me to learn new things and reinforce what I already know. Without their challenges and feedback I would still be stuck in tutorial hell, so shoutout to the FEM community for their continued support.</p>
 
+### Helpful Resources
+
+- [MDN Web Docs - Client-Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - This site was very helpful in helping implement some type of validation for my contact form.
+
 ### Images
 
 ![](src/images/portfolio-mobile-view.jpeg)
+
+### Version Updates
+
+#### Version 1.0.1
+
+* Added client-side form validation.
