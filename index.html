@@ -106,7 +106,7 @@
 
         <!--About Me Section-->
         
-        <section id="about" class="about__me">
+        <section id="about" class="about__me container">
             <h2>About Me</h2>
             <p> After working in customer service for over a decade, I decided to broaden my horizons. I returned to school for my Associate's Degree in Business Management with a focus on Programming and Development. I entered the world of Web Development to explore my passion for building responsive web experiences.
                 I enjoy creating beautiful web content that can be accessed from any device. My remarkable attention to detail and commitment to producing high quality work makes me 
@@ -116,22 +116,25 @@
             <p class = "lead contact">So, when can we get started?</p>
 
 
+                <form novalidate id = "contact" class="form" action="">
+                    <label for="fullName" aria-label="full name">Full Name (required):</label>
+                    <input class="form__input form__input--first" type="text" placeholder="Full Name" aria-placeholder="Full Name" id="fullName" name="fullname" required="">
+                    <span class="error" aria-live = "polite"></span>
+          
+                    <label for="email" aria-label="email">Email (required):</label>
+                    <input class="form__input form__input--email" type="email" placeholder="Email Address" aria-placeholder="Email Address" id="email" name="email" required = "">
+                    <span class = "error" aria-live ="polite"></span>
+          
+                    <label for="addMessage" aria-label="add message">Message (required):</label>
+                    <textarea name="message" form = "contact" id="addMessage" cols="30" rows="10" placeholder = "Add your message here" required = " "></textarea>
+                    <span class = "error" aria-live ="polite"></span>
+          
+                    <button class="form__button">Send</button>
+          
+                  </form>
 
-            <form novalidate id = "contact" class="form" action="">
-                <label for="fullName" aria-label="full name">Full Name (required):</label>
-                <input class="form__input form__input--first" type="text" placeholder="Full Name" aria-placeholder="Full Name" id="fullName" name="fullname" required="">
-                <span class="error" aria-live = "polite"></span>
-      
-                <label for="email" aria-label="email">Email (required):</label>
-                <input class="form__input form__input--email" type="email" placeholder="Email Address" aria-placeholder="Email Address" id="email" name="email" required="">
-                <span class = "error" aria-live ="polite"></span>
-      
-                <label for="addMessage" aria-label="add message">Message (required):</label>
-                <textarea name="message" form = "contact" id="addMessage" cols="30" rows="10" placeholder = "Add your message here" required></textarea>
-      
-                <button class="form__button">Send</button>
-      
-              </form>
+
+            
             
             </section>
         

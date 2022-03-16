@@ -95,4 +95,5 @@
 
 #### Version 1.0.1
 
-* Added client-side form validation.
+* Add client-side form validation.
+* Add mobile responsiveness to "About" section

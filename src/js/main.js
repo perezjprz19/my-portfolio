@@ -1,4 +1,4 @@
-//I gathered entire contact form, the email input and the span element
+ //I gathered entire contact form, the email input and the span element
 //which I will use to print the error message to.
 
 const form = document.querySelector("form");
@@ -10,14 +10,15 @@ const emailError = document.querySelector("#email + span.error");
 const fullName = document.getElementById("fullName");
 const nameError = document.querySelector("#fullName + span.error");
 
-
+//Here I'm grabbing the field for the message box along with its sibling span.
+const message = document.getElementById("addMessage");
+const messageError = document.querySelector("#addMessage + span.error");
 
 //Name Field Completion Validation
 fullName.addEventListener("input", function (e) {
     if(fullName.validity.valid){
-        console.log("fullName is not blank")
-        fullName.textContent = " ";
-        fullName.class = "error";
+        nameError.textContent = " ";
+        nameError.class = "error";
 }else {
         showError();
     }
@@ -42,11 +43,23 @@ email.addEventListener("input", function (e) {
     }
 });
 
+message.addEventListener("input", function (e){
+
+    if(message.validity.valid){
+        messageError.textContent = " ";
+        messageError.className = "error";
+    }else {
+        showError();
+    }
+    
+    
+    
+});
 
 //Here I added an event listener to the form that says
 form.addEventListener("submit", function (e) {
 // if the email address  or full name field is not valid
-    if (!email.validity.valid || !fullName.validity.valid){
+    if (!email.validity.valid || !fullName.validity.valid || !message.validity.valid){
 //show an error
         showError();
 //and prevent the form from being submitted.
@@ -63,7 +76,9 @@ function showError() {
         nameError.textContent = "This field cannot be blank."
          //if the email field is empty 
 
-    }else if(email.validity.valueMissing) {
+    };
+    
+    if(email.validity.valueMissing) {
 
         //show the specified error below.
         emailError.textContent = "This field cannot be blank";
@@ -73,11 +88,17 @@ function showError() {
 
 //show the error specified below:
         emailError.textContent = "Email is not in proper format.";
-    }
+    };
+
+    if (message.validity.valueMissing) {
+        messageError.textContent = "This field cannot be blank";
+    };
+    
 
 //This is setting the class names for styling purposes.
     emailError.className = "error active";
     nameError.className = "error active";
+    messageError.className = "error active";
 };
 
 
