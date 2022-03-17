@@ -97,3 +97,4 @@
 
 * Add client-side form validation.
 * Add mobile responsiveness to "About" section
+* Added form functionality to the 'About' section using Formkeep.
