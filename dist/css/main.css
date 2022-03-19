@@ -100,13 +100,12 @@ header P {
 
 .card {
   display: flex;
-  flex-direction: column-reverse;
   justify-content: space-between;
   border-radius: 0.5em;
-  width: 35em;
-  max-width: 100%;
+  min-width: 15em;
+  max-width: 25vw;
   margin: 4em;
-  padding: 1.5em;
+  padding: 2em;
 }
 
 .card__img {
@@ -116,7 +115,7 @@ header P {
 .card__details {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .card__details h3 {
   margin-bottom: 2em;
@@ -146,14 +145,30 @@ header P {
   padding: 0.5em;
 }
 
+@media screen and (min-width: 110em) {
+  .card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1em;
+    box-shadow: 1px 8px 45px 3px rgba(61, 61, 61, 0.2);
+    max-width: 50%;
+  }
+
+  .card__two--img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
 .about__me {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4em;
-  max-width: 80vw;
+  max-width: 40vw;
+  min-width: 15em;
 }
 .about__me h2 {
   font-size: 3rem;
@@ -171,10 +186,10 @@ header P {
   justify-content: center;
   align-items: center;
   background: #222d44;
-  max-width: 100%;
+  max-width: 40vw;
   border-radius: 0.5em;
   padding: 1.5em;
-  box-shadow: 0em 0.4em 0.1em rgba(62, 60, 73, 0.2);
+  box-shadow: 0em 0.4em 0.1em rgba(61, 61, 61, 0.2);
 }
 .form label {
   color: #FDC435;
@@ -189,7 +204,7 @@ header P {
   max-height: 2.5em;
   max-width: 100%;
   border-radius: 0.2em;
-  border: 1px solid rgba(61, 61, 61, 0.74);
+  border: 1px solid rgba(61, 61, 61, 0.2);
   padding: 1em;
 }
 .form .form__input:hover, .form .form__input:focus {
