@@ -92,6 +92,7 @@
 ### Images
 
 ![](src/images/portfolio-mobile-view.jpeg)
+![](src/images/portfolio-desktop-view.png)
 
 ### Version Updates
 
