@@ -59,6 +59,8 @@
 
 * Flexbox: I used Flexbox for the mobile and table layouts. Since the mobile and tablet layouts are only one column, I felt that it was the right choice. 
 
+* Grid: I used a 2 - column Grid system to display the cards on desktop so that the project image is next to the project description on an alternating pattern. This gives me more room to add technologies used to the cards themselves rather than create a separate skill section. The wider layout also looks better as it maximizes the benefits of screen real-estate.
+
 
 ### What I have Learned
 
@@ -98,3 +100,5 @@
 * Add client-side form validation.
 * Add mobile responsiveness to "About" section
 * Added form functionality to the 'About' section using Formkeep.
+* Added dekstop responsiveness and minor aesthetic updates
+* Added screenshot for desktop view
