@@ -88,6 +88,7 @@
 ### Helpful Resources
 
 - [MDN Web Docs - Client-Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - This site was very helpful in helping implement some type of validation for my contact form.
+- [Kevin Powell - HTML section elements are a lie (sort of)](https://youtu.be/ULdkpU51hTQ) - This video was helpful because it helped me understand that section elements should be used sparingly. Section elements are actually not semantic on their own. They act like a div element unless they are given the aria-labelledby, aria-label, or title attribute. 
 
 ### Images
 
@@ -100,6 +101,6 @@
 
 * Add client-side form validation.
 * Add mobile responsiveness to "About" section
-* Added form functionality to the 'About' section using Formkeep.
-* Added dekstop responsiveness and minor aesthetic updates
-* Added screenshot for desktop view
+* Add form functionality to the 'About' section using Formkeep.
+* Add dekstop responsiveness and minor aesthetic updates
+* Add screenshot for desktop view
