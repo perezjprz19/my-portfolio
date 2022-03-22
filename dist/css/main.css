@@ -68,7 +68,6 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  justify-content: space-evenly;
 }
 header h1 {
   font-size: 5rem;
@@ -174,6 +173,7 @@ header P {
   align-items: center;
   text-align: center;
   align-self: center;
+  min-height: 100vh;
   padding: 2.5em;
   margin: 4em 2em;
 }
@@ -185,13 +185,6 @@ header P {
 .about__me .lead {
   margin-top: 3em;
   font-family: "Nunito", sans-serif;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .form {
