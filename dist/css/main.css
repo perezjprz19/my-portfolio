@@ -1,12 +1,12 @@
-body {
-  background: #FFFFFF;
-  font-style: "Nunito", sans-serif;
-  font-weight: 400;
+body main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #FFFFFF;
+  font-style: "Nunito", sans-serif;
+  font-weight: 400;
 }
 
 h1, h2, h3 {
@@ -63,11 +63,11 @@ ul.navbar {
 }
 
 header {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   justify-content: space-evenly;
 }
 header h1 {
@@ -83,12 +83,11 @@ header P {
 }
 
 .container__projects {
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  text-align: center;
   margin: 4em 2em;
 }
 
@@ -169,15 +168,14 @@ header P {
   }
 }
 .about__me {
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  max-width: 75em;
-  min-width: 15em;
+  text-align: center;
+  align-self: center;
   padding: 2.5em;
+  margin: 4em 2em;
 }
 .about__me h2 {
   font-size: 3rem;
@@ -202,10 +200,8 @@ header P {
   justify-content: center;
   align-items: center;
   background: #222d44;
-  margin: auto 2em;
   max-width: 100%;
   border-radius: 0.5em;
-  padding: 1.5em;
   box-shadow: 0em 0.4em 0.1em rgba(61, 61, 61, 0.2);
 }
 .form label {
