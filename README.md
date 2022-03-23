@@ -24,6 +24,7 @@
     - [Images](#images)
     - [Version Updates](#version-updates)
       - [Version 1.0.1](#version-101)
+      - [Version 1.0.2](#version-102)
 
 
 ### My Approach
@@ -100,7 +101,13 @@
 #### Version 1.0.1
 
 * Add client-side form validation.
-* Add mobile responsiveness to "About" section
-* Add form functionality to the 'About' section using Formkeep.
-* Add dekstop responsiveness and minor aesthetic updates
-* Add screenshot for desktop view
+* Add mobile responsiveness to "About" section.
+* Add form functionality to the 'About' section using Formkeep..
+* Add dekstop responsiveness and minor aesthetic updates.
+* Add screenshot for desktop view.
+
+#### Version 1.0.2
+
+* Adds transparent border to navigation link.
+* Increases width of project cards.
+* Adds padding to contact form.

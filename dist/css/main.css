@@ -39,6 +39,7 @@ nav.navbar {
 nav.navbar .nav-link {
   color: #FDC435;
   font-size: 1rem;
+  border: 1px solid transparent;
 }
 nav.navbar .nav-link:hover {
   border: 1px solid #FDC435;
@@ -82,12 +83,8 @@ header P {
 }
 
 .container__projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  margin: 4em 2em;
+  margin-bottom: 4em;
 }
 
 .section__heading {
@@ -100,10 +97,9 @@ header P {
   display: flex;
   justify-content: space-between;
   border-radius: 0.5em;
-  max-width: 100%;
   box-shadow: 1px 8px 45px 3px rgba(61, 61, 61, 0.2);
   padding: 2em;
-  margin: 4em 2em;
+  margin: 4em auto;
 }
 
 .card__img {
@@ -132,7 +128,6 @@ header P {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 8em;
   align-items: flex-start;
 }
 
@@ -140,9 +135,9 @@ header P {
   border: 1px solid #FDC435;
   background: #FDC435;
   margin-top: 2em;
-  padding: 0.5em;
+  padding: 1em;
   font-style: "Nunito", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   color: #3D3D3D;
   font-weight: 700;
 }
@@ -151,7 +146,7 @@ header P {
   color: #3D3D3D;
 }
 
-@media screen and (min-width: 55em) {
+@media screen and (min-width: 40em) {
   .card {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -172,10 +167,7 @@ header P {
   justify-content: center;
   align-items: center;
   text-align: center;
-  align-self: center;
   min-height: 100vh;
-  padding: 2.5em;
-  margin: 4em 2em;
 }
 .about__me h2 {
   font-size: 3rem;
@@ -193,8 +185,9 @@ header P {
   justify-content: center;
   align-items: center;
   background: #222d44;
-  max-width: 100%;
+  max-width: 90vw;
   border-radius: 0.5em;
+  padding: 2em;
   box-shadow: 0em 0.4em 0.1em rgba(61, 61, 61, 0.2);
 }
 .form label {
