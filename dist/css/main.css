@@ -120,8 +120,8 @@ header P {
 .card__details ul {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  padding: 2em;
+  align-items: stretch;
+  padding: 0;
 }
 .card__details ul li {
   display: flex;
@@ -153,6 +153,9 @@ header P {
     justify-content: center;
     grid-gap: 1em;
     max-width: 75em;
+  }
+  .card ul {
+    align-items: center;
   }
 
   .card__two--img {
