@@ -111,3 +111,5 @@
 * Adds transparent border to navigation link.
 * Increases width of project cards.
 * Adds padding to contact form.
+* Reduced content of 'About Me' section
+* Reduced content of intro text

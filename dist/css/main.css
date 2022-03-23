@@ -23,7 +23,6 @@ p {
 a {
   text-decoration: none;
   border-radius: 2em;
-  max-width: 8em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -122,13 +121,13 @@ header P {
   display: flex;
   flex-direction: column;
   align-self: center;
+  padding: 2em;
 }
 .card__details ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-items: flex-start;
 }
 
 .view__projects, .view__live, .view__code {
