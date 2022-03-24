@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body main {
   display: flex;
   flex-direction: column;
@@ -84,6 +88,7 @@ header P {
 .container__projects {
   text-align: center;
   margin-bottom: 4em;
+  min-height: 100vh;
 }
 
 .section__heading {
