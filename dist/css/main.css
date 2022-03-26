@@ -83,13 +83,13 @@ header .hero {
   text-align: center;
   max-width: 80vw;
 }
-header P {
+header p {
   margin-bottom: 3em;
 }
 
 @media screen and (min-width: 40em) {
   .hero::after {
-    content: url("/src/images/undraw_proud_coder_re_exuy.svg");
+    content: url("./src/images/undraw_proud_coder_re_exuy.svg");
     position: relative;
     display: block;
     transform: scale(0.75);
@@ -157,7 +157,7 @@ header P {
   font-size: 1rem;
   color: #3D3D3D;
   font-weight: 700;
-  transition: 0.5s ease-in-out;
+  transition: 500ms ease-in-out;
 }
 .view__projects:hover, .view__projects:focus, .view__live:hover, .view__live:focus, .view__code:hover, .view__code:focus {
   background: transparent;
