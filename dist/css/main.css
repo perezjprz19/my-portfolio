@@ -86,10 +86,12 @@ header .hero {
 header p {
   margin-bottom: 3em;
 }
+header img {
+  display: none;
+}
 
 @media screen and (min-width: 40em) {
-  .hero::after {
-    content: url("./src/images/undraw_proud_coder_re_exuy.svg");
+  .hero__img {
     position: relative;
     display: block;
     transform: scale(0.75);
