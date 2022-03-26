@@ -43,6 +43,7 @@ nav.navbar .nav-link {
   color: #FDC435;
   font-size: 1rem;
   border: 1px solid transparent;
+  transition: 0.5s ease-in-out;
 }
 nav.navbar .nav-link:hover {
   border: 1px solid #FDC435;
@@ -78,6 +79,7 @@ header h1 {
   margin-bottom: 0.5em;
 }
 header .hero {
+  position: relative;
   text-align: center;
   max-width: 80vw;
 }
@@ -85,6 +87,16 @@ header P {
   margin-bottom: 3em;
 }
 
+@media screen and (min-width: 40em) {
+  .hero::after {
+    content: url("/src/images/undraw_proud_coder_re_exuy.svg");
+    position: relative;
+    display: block;
+    transform: scale(0.75);
+    margin-top: 4em;
+    margin-left: -4em;
+  }
+}
 .container__projects {
   text-align: center;
   margin-bottom: 4em;
@@ -144,11 +156,11 @@ header P {
   font-size: 1rem;
   color: #3D3D3D;
   font-weight: 700;
+  transition: 0.5s ease-in-out;
 }
 .view__projects:hover, .view__projects:focus, .view__live:hover, .view__live:focus, .view__code:hover, .view__code:focus {
   background: transparent;
   color: #3D3D3D;
-  transition: 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 40em) {
@@ -247,10 +259,11 @@ header P {
   border: 1px solid #FDC435;
   border-radius: 2em;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 .form .form__button:hover {
-  filter: opacity(0.7);
-  transition: 0.5s ease-in-out;
+  background: transparent;
+  color: #FDC435;
 }
 
 footer {
@@ -277,6 +290,13 @@ footer .social {
   align-items: center;
   flex-direction: row;
   align-items: flex-end;
+}
+footer .return__top {
+  height: 1.5em;
+  width: 1.5em;
+}
+footer .return__top:hover {
+  color: #FDC435;
 }
 
 .social__link--twitter:hover,
