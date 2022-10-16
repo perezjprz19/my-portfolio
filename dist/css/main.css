@@ -87,8 +87,9 @@ header .hero {
 header p {
   margin-bottom: 3em;
 }
-header img {
-  display: none;
+header .brand-icon {
+  max-height: 50%;
+  max-width: 50%;
 }
 
 @media screen and (min-width: 40em) {
@@ -99,6 +100,11 @@ header img {
     margin-top: 4em;
     margin-left: -2em;
     margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 50em) {
+  .brand-icon {
+    display: none;
   }
 }
 .container__projects {
@@ -208,13 +214,18 @@ header img {
   font-family: "Nunito", sans-serif;
 }
 
+.contact {
+  justify-content: center;
+  display: flex;
+}
+
 .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #222d44;
-  max-width: 90vw;
+  max-width: 40vw;
   border-radius: 0.5em;
   padding: 2em;
   box-shadow: 0em 0.4em 0.1em rgba(61, 61, 61, 0.2);
