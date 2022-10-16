@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <meta name="google-site-verification" content="htk2vwG3lnLFN6OTWfbfUMue2MBF0TI8PryGpJepB9g" />
     <meta name="description"
         content="Reach more clients and make your business stand out by having a beautifully crafted responsive website! Contact me today for more details.">
@@ -35,9 +35,10 @@
 <body class="container-fluid">
     <!--Top Navigation-->
     <header id="home">
+
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container">
-                <a href="#home" class="navbar-brand">&lt;JS&gt;</a>
+                <a href="#home" class="navbar-brand"><img src="src/images/JS.svg" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
                     aria-controls="#dropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><svg class="hamburger" xmlns="http://www.w3.org/2000/svg"
@@ -163,68 +164,48 @@
 
             </div>
 
-        </section>
 
-        <!--Medium Blog Feed-->
+            <!--About Me Section-->
 
-        <section id = myBlog>
-            <h2>My Most Recent Blog Bost</h2>
+            <section aria-labelledby="about" class="about__me container">
+                <h2 id="about">About Me</h2>
+                <p> Hi, I'm Jessica Shellenhamer. I enjoy creating beautiful web content that can be accessed from any
+                    device. My remarkable attention to
+                    detail and commitment to producing high quality work makes me the perfect partner to help bring your
+                    website goals to life.
+                </p>
 
-            <blockquote class="embedly-card">
-                <h4><a href="https://medium.com/@jessicaswebdevelopment">Jessica Shellenhamer - Medium</a></h4>
-                <p>How I Started My Frontend Web Development Journey I've done it. I've decided I want to become a frontend
-                    web developer... now what? - Well, I'm going to tell you the first thing I did when I decided I wanted
-                    to become a frontend web developer.</p>
-            </blockquote>
+                <p class="lead">So, when can we get started?</p>
 
-        </section>
+            </section>
 
-        
-        
+            <section class="contact" aria-labelledby="contact">
 
-        <!--End of Medium Blog Feed-->
+                <form novalidate id="contact" class="form" action="https://formkeep.com/f/bbcf5980a9fd"
+                    accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+                    <label for="fullName" aria-label="full name">Full Name (required):</label>
+                    <input class="form__input form__input--first" type="text" placeholder="Full Name"
+                        aria-placeholder="Full Name" id="fullName" name="fullname" required="">
+                    <span class="error" aria-live="polite"></span>
 
-        <!--About Me Section-->
+                    <label for="email" aria-label="email">Email (required):</label>
+                    <input class="form__input form__input--email" type="email" placeholder="Email Address"
+                        aria-placeholder="Email Address" id="email" name="email" required="">
+                    <span class="error" aria-live="polite"></span>
 
-        <section aria-labelledby="about" class="about__me container">
-            <h2 id="about">About Me</h2>
-            <p> Hi, I'm Jessica Shellenhamer. I enjoy creating beautiful web content that can be accessed from any
-                device. My remarkable attention to
-                detail and commitment to producing high quality work makes me the perfect partner to help bring your
-                website goals to life.
-            </p>
+                    <label for="addMessage" aria-label="add message">Message (required):</label>
+                    <textarea name="message" form="contact" id="addMessage" cols="30" rows="10"
+                        placeholder="Add your message here" required=" "></textarea>
+                    <span class="error" aria-live="polite"></span>
 
-            <p class="lead">So, when can we get started?</p>
+                    <button class="form__button">Send</button>
 
-        </section>
-
-        <section class="contact" aria-labelledby="contact">
-
-            <form novalidate id="contact" class="form" action="https://formkeep.com/f/bbcf5980a9fd"
-                accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
-                <label for="fullName" aria-label="full name">Full Name (required):</label>
-                <input class="form__input form__input--first" type="text" placeholder="Full Name"
-                    aria-placeholder="Full Name" id="fullName" name="fullname" required="">
-                <span class="error" aria-live="polite"></span>
-
-                <label for="email" aria-label="email">Email (required):</label>
-                <input class="form__input form__input--email" type="email" placeholder="Email Address"
-                    aria-placeholder="Email Address" id="email" name="email" required="">
-                <span class="error" aria-live="polite"></span>
-
-                <label for="addMessage" aria-label="add message">Message (required):</label>
-                <textarea name="message" form="contact" id="addMessage" cols="30" rows="10"
-                    placeholder="Add your message here" required=" "></textarea>
-                <span class="error" aria-live="polite"></span>
-
-                <button class="form__button">Send</button>
-
-            </form>
+                </form>
 
 
 
 
-        </section>
+            </section>
 
     </main>
 
