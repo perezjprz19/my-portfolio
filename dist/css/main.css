@@ -87,10 +87,6 @@ header .hero {
 header p {
   margin-bottom: 3em;
 }
-header .brand-icon {
-  max-height: 50%;
-  max-width: 50%;
-}
 
 @media screen and (min-width: 40em) {
   .hero__img {
@@ -100,11 +96,6 @@ header .brand-icon {
     margin-top: 4em;
     margin-left: -2em;
     margin-bottom: 4em;
-  }
-}
-@media screen and (max-width: 50em) {
-  .brand-icon {
-    display: none;
   }
 }
 .container__projects {
